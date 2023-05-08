@@ -1,0 +1,7 @@
+*.bed
+*.svg
+*.R
+*.csv
+*.tsv
+*.pdf
+!RnBeads_with_RepeatMasker.R
