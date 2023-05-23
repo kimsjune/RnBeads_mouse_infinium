@@ -1,11 +1,4 @@
-*.bed
-*.svg
-*.R
-*.csv
-*.tsv
-*.pdf
-*.xlsx
-RnBeads/
-*/
-!RnBeads_with_RepeatMasker.R
-
+* 
+!RnBeads_*
+!.gitignore
+!LICENSE
