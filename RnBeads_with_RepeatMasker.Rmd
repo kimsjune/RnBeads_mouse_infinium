@@ -11,13 +11,13 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-#### Introduction
+### Introduction
 
 The goal is to display some key data frame structures and visuals that you can expect to get from running the code in RnBeads_with_RepeatMasker.R
 
 Using RnBeads dev version [@müller2019].
 
-#### Setup[^1][^2]
+### Setup[^1][^2]
 
 [^1]: Run rmarkdown::render("RnBeads_with_RepeatMasker.Rmd") in the same workspace as .R to avoid worrying about global environment.
 
@@ -30,7 +30,7 @@ head(tab.rmsk)
 head(sample.table,14)
 ```
 
-#### Interesting but confusing functions
+### Interesting but confusing functions
 
 `get.table()` returns a useful, unsorted data frame of statistics for each \$ANNOTATION probe(rows) from `diffmeth.\$ANNOTATION` S4 object. `annotation()` returns row-matching annotation for each probe in tab.\$ANNOTATION.
 
@@ -67,7 +67,7 @@ topDiffBeta.rmsk.full <- meth(rnb.set.full, type="rmsk")[as.integer(rownames(ann
 
 ```
 
-#### Heatmap(s)
+### Heatmap(s)
 
 Differentially methylated probes annotated with RepeatMasker
 
